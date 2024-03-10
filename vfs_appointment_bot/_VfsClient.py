@@ -61,7 +61,7 @@ class _VfsClient:
         _email_input.send_keys(_email)
         _password_input = self._web_driver.find_element_by_xpath("//input[@id='password']")
         _password_input.send_keys(_password)
-        _login_button = self._web_driver.find_element_by_xpath("//button/[@id='kc-login']")
+        _login_button = self._web_driver.find_element_by_xpath("//button[@id='kc-login']")
         # _login_button = self._web_driver.find_element_by_xpath("//button/span")
         _login_button.click()
         time.sleep(10)
