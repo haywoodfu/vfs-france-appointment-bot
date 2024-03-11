@@ -1,0 +1,70 @@
+[2024-03-10 17:11:08,039] DEBUG [_ConfigReader.py root read_prop (13)]: twilio_to_num:447767862175
+[2024-03-10 17:11:08,040] DEBUG [_ConfigReader.py root read_prop (13)]: twilio_from_num:447488881065
+[2024-03-10 17:11:08,040] DEBUG [_ConfigReader.py root read_prop (13)]: twilio_account_sid:AC2beaeda3bb2bf76619e8297de56f8b2c
+[2024-03-10 17:11:08,040] DEBUG [_ConfigReader.py root read_prop (13)]: twilio_auth_token:935dcc4560d768c2a834437db73bc6ef
+[2024-03-10 17:11:08,040] DEBUG [_ConfigReader.py root read_prop (13)]: twilio_url:twilio-url
+[2024-03-10 17:11:08,040] DEBUG [_ConfigReader.py root read_bool_prop (18)]: twilio_sms_enabled:True
+[2024-03-10 17:11:08,040] DEBUG [_ConfigReader.py root read_bool_prop (18)]: twilio_call_enabled:False
+[2024-03-10 17:11:08,040] DEBUG [_ConfigReader.py root read_prop (13)]: chat_id:7081442908
+[2024-03-10 17:11:08,040] DEBUG [_ConfigReader.py root read_prop (13)]: parse_mode:Markdown
+[2024-03-10 17:11:08,040] DEBUG [_ConfigReader.py root read_prop (13)]: bot_token:7007352620:AAH_MGTP1Ice4IR3UfJy25N4O-oJYo-og8U
+[2024-03-10 17:11:08,041] DEBUG [_ConfigReader.py root read_prop (13)]: use_telegram:True
+[2024-03-10 17:11:08,041] DEBUG [_ConfigReader.py root read_prop (13)]: use_twilio:False
+[2024-03-10 17:11:08,041] DEBUG [_VfsClient.py root __init__ (25)]: Will use Telegram : True
+[2024-03-10 17:11:08,041] DEBUG [_VfsClient.py root __init__ (26)]: Will use Twilio : False
+[2024-03-10 17:11:08,041] DEBUG [_ConfigReader.py root read_prop (13)]: interval:120
+[2024-03-10 17:11:08,041] DEBUG [vfs_appointment_bot.py __main__ <module> (37)]: Interval: 120
+[2024-03-10 17:11:08,041] INFO [vfs_appointment_bot.py __main__ <module> (41)]: Starting VFS Appointment Bot
+[2024-03-10 17:11:08,042] INFO [vfs_appointment_bot.py __main__ <module> (44)]: Running VFS Appointment Bot: Attempt#1
+[2024-03-10 17:11:12,417] DEBUG [_ConfigReader.py root read_prop (13)]: vfs_login_url:https://auth.visas-fr.tlscontact.com/auth/realms/atlas/protocol/openid-connect/auth?response_type=code&client_id=web_app&scope=openid%20roles%20atlas%20web-origins%20email%20offline_access%20profile%20address%20phone&state=k7R-JUCVSj4oQciRkEomCXfyVbjc91Ux8T6VlaYXq_s%3D&redirect_uri=https://visas-fr.tlscontact.com/login/oauth2/code/oidc&issuer=
+[2024-03-10 17:11:14,341] DEBUG [_ConfigReader.py root read_prop (13)]: vfs_email:futuresu44@gmail.com
+[2024-03-10 17:11:14,341] DEBUG [_ConfigReader.py root read_prop (13)]: vfs_password:Susan363196@
+[2024-03-10 17:11:14,341] DEBUG [_VfsClient.py root _login (54)]: Logging in with email: futuresu44@gmail.com
+[2024-03-10 17:11:26,441] INFO [vfs_appointment_bot.py __main__ <module> (49)]: Element <button id="kc-login" class="tls-button-primary -small" name="login" type="submit"> could not be scrolled into view. Please check the logs for more details
+[2024-03-10 17:11:26,443] DEBUG [vfs_appointment_bot.py __main__ <module> (50)]: Message: Element <button id="kc-login" class="tls-button-primary -small" name="login" type="submit"> could not be scrolled into view
+Traceback (most recent call last):
+  File "/home/ubuntu/vfs-france/vfs-france-appointment-bot/vfs_appointment_bot/vfs_appointment_bot.py", line 45, in <module>
+    _vfs_client.check_slot(visa_centre=visa_centre, category=category, sub_category=sub_category)
+  File "/home/ubuntu/vfs-france/vfs-france-appointment-bot/vfs_appointment_bot/_VfsClient.py", line 153, in check_slot
+    self._login()
+  File "/home/ubuntu/vfs-france/vfs-france-appointment-bot/vfs_appointment_bot/_VfsClient.py", line 68, in _login
+    _login_button.click()
+  File "/home/ubuntu/vfs-appointment-bot/venv/lib/python3.10/site-packages/selenium/webdriver/remote/webelement.py", line 80, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "/home/ubuntu/vfs-appointment-bot/venv/lib/python3.10/site-packages/selenium/webdriver/remote/webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "/home/ubuntu/vfs-appointment-bot/venv/lib/python3.10/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/home/ubuntu/vfs-appointment-bot/venv/lib/python3.10/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.ElementNotInteractableException: Message: Element <button id="kc-login" class="tls-button-primary -small" name="login" type="submit"> could not be scrolled into view
+Stack (most recent call last):
+  File "/home/ubuntu/vfs-france/vfs-france-appointment-bot/vfs_appointment_bot/vfs_appointment_bot.py", line 50, in <module>
+    logging.debug(e, exc_info=True, stack_info=True)
+[2024-03-10 17:12:27,521] INFO [vfs_appointment_bot.py __main__ <module> (44)]: Running VFS Appointment Bot: Attempt#2
+[2024-03-10 17:12:34,115] DEBUG [_ConfigReader.py root read_prop (13)]: vfs_login_url:https://auth.visas-fr.tlscontact.com/auth/realms/atlas/protocol/openid-connect/auth?response_type=code&client_id=web_app&scope=openid%20roles%20atlas%20web-origins%20email%20offline_access%20profile%20address%20phone&state=k7R-JUCVSj4oQciRkEomCXfyVbjc91Ux8T6VlaYXq_s%3D&redirect_uri=https://visas-fr.tlscontact.com/login/oauth2/code/oidc&issuer=
+[2024-03-10 17:12:51,708] DEBUG [_ConfigReader.py root read_prop (13)]: vfs_email:futuresu44@gmail.com
+[2024-03-10 17:12:51,719] DEBUG [_ConfigReader.py root read_prop (13)]: vfs_password:Susan363196@
+[2024-03-10 17:12:51,719] DEBUG [_VfsClient.py root _login (54)]: Logging in with email: futuresu44@gmail.com
+[2024-03-10 17:13:04,346] INFO [vfs_appointment_bot.py __main__ <module> (49)]: Element <button id="kc-login" class="tls-button-primary -small" name="login" type="submit"> could not be scrolled into view. Please check the logs for more details
+[2024-03-10 17:13:04,354] DEBUG [vfs_appointment_bot.py __main__ <module> (50)]: Message: Element <button id="kc-login" class="tls-button-primary -small" name="login" type="submit"> could not be scrolled into view
+Traceback (most recent call last):
+  File "/home/ubuntu/vfs-france/vfs-france-appointment-bot/vfs_appointment_bot/vfs_appointment_bot.py", line 45, in <module>
+    _vfs_client.check_slot(visa_centre=visa_centre, category=category, sub_category=sub_category)
+  File "/home/ubuntu/vfs-france/vfs-france-appointment-bot/vfs_appointment_bot/_VfsClient.py", line 153, in check_slot
+    self._login()
+  File "/home/ubuntu/vfs-france/vfs-france-appointment-bot/vfs_appointment_bot/_VfsClient.py", line 68, in _login
+    _login_button.click()
+  File "/home/ubuntu/vfs-appointment-bot/venv/lib/python3.10/site-packages/selenium/webdriver/remote/webelement.py", line 80, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "/home/ubuntu/vfs-appointment-bot/venv/lib/python3.10/site-packages/selenium/webdriver/remote/webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "/home/ubuntu/vfs-appointment-bot/venv/lib/python3.10/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/home/ubuntu/vfs-appointment-bot/venv/lib/python3.10/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.ElementNotInteractableException: Message: Element <button id="kc-login" class="tls-button-primary -small" name="login" type="submit"> could not be scrolled into view
+Stack (most recent call last):
+  File "/home/ubuntu/vfs-france/vfs-france-appointment-bot/vfs_appointment_bot/vfs_appointment_bot.py", line 50, in <module>
+    logging.debug(e, exc_info=True, stack_info=True)
+[2024-03-10 17:14:05,446] INFO [vfs_appointment_bot.py __main__ <module> (44)]: Running VFS Appointment Bot: Attempt#3

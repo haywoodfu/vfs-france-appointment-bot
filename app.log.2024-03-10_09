@@ -1,0 +1,329 @@
+[2024-03-10 08:39:47,384] DEBUG [_ConfigReader.py root read_prop (13)]: twilio_to_num:447767862175
+[2024-03-10 08:39:47,384] DEBUG [_ConfigReader.py root read_prop (13)]: twilio_from_num:447488881065
+[2024-03-10 08:39:47,384] DEBUG [_ConfigReader.py root read_prop (13)]: twilio_account_sid:AC2beaeda3bb2bf76619e8297de56f8b2c
+[2024-03-10 08:39:47,384] DEBUG [_ConfigReader.py root read_prop (13)]: twilio_auth_token:935dcc4560d768c2a834437db73bc6ef
+[2024-03-10 08:39:47,384] DEBUG [_ConfigReader.py root read_prop (13)]: twilio_url:twilio-url
+[2024-03-10 08:39:47,384] DEBUG [_ConfigReader.py root read_bool_prop (18)]: twilio_sms_enabled:True
+[2024-03-10 08:39:47,384] DEBUG [_ConfigReader.py root read_bool_prop (18)]: twilio_call_enabled:False
+[2024-03-10 08:39:47,385] DEBUG [_ConfigReader.py root read_prop (13)]: chat_id:7081442908
+[2024-03-10 08:39:47,385] DEBUG [_ConfigReader.py root read_prop (13)]: parse_mode:Markdown
+[2024-03-10 08:39:47,385] DEBUG [_ConfigReader.py root read_prop (13)]: bot_token:7007352620:AAH_MGTP1Ice4IR3UfJy25N4O-oJYo-og8U
+[2024-03-10 08:39:47,385] DEBUG [_ConfigReader.py root read_prop (13)]: use_telegram:True
+[2024-03-10 08:39:47,385] DEBUG [_ConfigReader.py root read_prop (13)]: use_twilio:False
+[2024-03-10 08:39:47,385] DEBUG [_VfsClient.py root __init__ (25)]: Will use Telegram : True
+[2024-03-10 08:39:47,385] DEBUG [_VfsClient.py root __init__ (26)]: Will use Twilio : False
+[2024-03-10 08:39:47,386] DEBUG [_ConfigReader.py root read_prop (13)]: interval:120
+[2024-03-10 08:39:47,386] DEBUG [vfs_appointment_bot.py __main__ <module> (37)]: Interval: 120
+[2024-03-10 08:40:01,059] DEBUG [vfs_appointment_bot.py __main__ _input (19)]: Visa centre: London, Category: Tourism, Sub-Category: Tourism
+[2024-03-10 08:40:01,059] INFO [vfs_appointment_bot.py __main__ <module> (41)]: Starting VFS Appointment Bot
+[2024-03-10 08:40:01,059] INFO [vfs_appointment_bot.py __main__ <module> (44)]: Running VFS Appointment Bot: Attempt#1
+[2024-03-10 08:40:05,436] DEBUG [_ConfigReader.py root read_prop (13)]: vfs_login_url:https://auth.visas-fr.tlscontact.com/auth/realms/atlas/protocol/openid-connect/auth?response_type=code&client_id=web_app&scope=openid%20roles%20atlas%20web-origins%20email%20offline_access%20profile%20address%20phone&state=k7R-JUCVSj4oQciRkEomCXfyVbjc91Ux8T6VlaYXq_s%3D&redirect_uri=https://visas-fr.tlscontact.com/login/oauth2/code/oidc&issuer=
+[2024-03-10 08:40:07,295] DEBUG [_ConfigReader.py root read_prop (13)]: vfs_email:futuresu44@gmail.com
+[2024-03-10 08:40:07,295] DEBUG [_ConfigReader.py root read_prop (13)]: vfs_password:Susan363196@
+[2024-03-10 08:40:07,296] DEBUG [_VfsClient.py root _login (54)]: Logging in with email: futuresu44@gmail.com
+[2024-03-10 08:40:17,321] INFO [vfs_appointment_bot.py __main__ <module> (49)]: Unable to locate element: //input[@id='mat-input-0']. Please check the logs for more details
+[2024-03-10 08:40:17,321] DEBUG [vfs_appointment_bot.py __main__ <module> (50)]: Message: Unable to locate element: //input[@id='mat-input-0']
+Traceback (most recent call last):
+  File "/home/ubuntu/vfs-france/vfs-france-appointment-bot/vfs_appointment_bot/vfs_appointment_bot.py", line 45, in <module>
+    _vfs_client.check_slot(visa_centre=visa_centre, category=category, sub_category=sub_category)
+  File "/home/ubuntu/vfs-france/vfs-france-appointment-bot/vfs_appointment_bot/_VfsClient.py", line 150, in check_slot
+    self._login()
+  File "/home/ubuntu/vfs-france/vfs-france-appointment-bot/vfs_appointment_bot/_VfsClient.py", line 60, in _login
+    _email_input = self._web_driver.find_element_by_xpath("//input[@id='mat-input-0']")
+  File "/home/ubuntu/vfs-appointment-bot/venv/lib/python3.10/site-packages/selenium/webdriver/remote/webdriver.py", line 394, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "/home/ubuntu/vfs-appointment-bot/venv/lib/python3.10/site-packages/selenium/webdriver/remote/webdriver.py", line 976, in find_element
+    return self.execute(Command.FIND_ELEMENT, {
+  File "/home/ubuntu/vfs-appointment-bot/venv/lib/python3.10/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/home/ubuntu/vfs-appointment-bot/venv/lib/python3.10/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: Unable to locate element: //input[@id='mat-input-0']
+Stack (most recent call last):
+  File "/home/ubuntu/vfs-france/vfs-france-appointment-bot/vfs_appointment_bot/vfs_appointment_bot.py", line 50, in <module>
+    logging.debug(e, exc_info=True, stack_info=True)
+[2024-03-10 08:45:02,369] DEBUG [_ConfigReader.py root read_prop (13)]: twilio_to_num:447767862175
+[2024-03-10 08:45:02,369] DEBUG [_ConfigReader.py root read_prop (13)]: twilio_from_num:447488881065
+[2024-03-10 08:45:02,369] DEBUG [_ConfigReader.py root read_prop (13)]: twilio_account_sid:AC2beaeda3bb2bf76619e8297de56f8b2c
+[2024-03-10 08:45:02,369] DEBUG [_ConfigReader.py root read_prop (13)]: twilio_auth_token:935dcc4560d768c2a834437db73bc6ef
+[2024-03-10 08:45:02,370] DEBUG [_ConfigReader.py root read_prop (13)]: twilio_url:twilio-url
+[2024-03-10 08:45:02,370] DEBUG [_ConfigReader.py root read_bool_prop (18)]: twilio_sms_enabled:True
+[2024-03-10 08:45:02,370] DEBUG [_ConfigReader.py root read_bool_prop (18)]: twilio_call_enabled:False
+[2024-03-10 08:45:02,371] DEBUG [_ConfigReader.py root read_prop (13)]: chat_id:7081442908
+[2024-03-10 08:45:02,371] DEBUG [_ConfigReader.py root read_prop (13)]: parse_mode:Markdown
+[2024-03-10 08:45:02,371] DEBUG [_ConfigReader.py root read_prop (13)]: bot_token:7007352620:AAH_MGTP1Ice4IR3UfJy25N4O-oJYo-og8U
+[2024-03-10 08:45:02,371] DEBUG [_ConfigReader.py root read_prop (13)]: use_telegram:True
+[2024-03-10 08:45:02,371] DEBUG [_ConfigReader.py root read_prop (13)]: use_twilio:False
+[2024-03-10 08:45:02,372] DEBUG [_VfsClient.py root __init__ (25)]: Will use Telegram : True
+[2024-03-10 08:45:02,372] DEBUG [_VfsClient.py root __init__ (26)]: Will use Twilio : False
+[2024-03-10 08:45:02,372] DEBUG [_ConfigReader.py root read_prop (13)]: interval:120
+[2024-03-10 08:45:02,372] DEBUG [vfs_appointment_bot.py __main__ <module> (37)]: Interval: 120
+[2024-03-10 08:45:02,373] INFO [vfs_appointment_bot.py __main__ <module> (41)]: Starting VFS Appointment Bot
+[2024-03-10 08:45:02,373] INFO [vfs_appointment_bot.py __main__ <module> (44)]: Running VFS Appointment Bot: Attempt#1
+[2024-03-10 08:45:08,087] DEBUG [_ConfigReader.py root read_prop (13)]: vfs_login_url:https://auth.visas-fr.tlscontact.com/auth/realms/atlas/protocol/openid-connect/auth?response_type=code&client_id=web_app&scope=openid%20roles%20atlas%20web-origins%20email%20offline_access%20profile%20address%20phone&state=k7R-JUCVSj4oQciRkEomCXfyVbjc91Ux8T6VlaYXq_s%3D&redirect_uri=https://visas-fr.tlscontact.com/login/oauth2/code/oidc&issuer=
+[2024-03-10 08:45:10,093] DEBUG [_ConfigReader.py root read_prop (13)]: vfs_email:futuresu44@gmail.com
+[2024-03-10 08:45:10,093] DEBUG [_ConfigReader.py root read_prop (13)]: vfs_password:Susan363196@
+[2024-03-10 08:45:10,093] DEBUG [_VfsClient.py root _login (54)]: Logging in with email: futuresu44@gmail.com
+[2024-03-10 08:45:20,177] INFO [vfs_appointment_bot.py __main__ <module> (49)]: Given xpath expression "//button/[@id='kc-login']" is invalid: SyntaxError: Document.evaluate: The expression is not a legal expression. Please check the logs for more details
+[2024-03-10 08:45:20,178] DEBUG [vfs_appointment_bot.py __main__ <module> (50)]: Message: Given xpath expression "//button/[@id='kc-login']" is invalid: SyntaxError: Document.evaluate: The expression is not a legal expression
+Traceback (most recent call last):
+  File "/home/ubuntu/vfs-france/vfs-france-appointment-bot/vfs_appointment_bot/vfs_appointment_bot.py", line 45, in <module>
+    _vfs_client.check_slot(visa_centre=visa_centre, category=category, sub_category=sub_category)
+  File "/home/ubuntu/vfs-france/vfs-france-appointment-bot/vfs_appointment_bot/_VfsClient.py", line 151, in check_slot
+    self._login()
+  File "/home/ubuntu/vfs-france/vfs-france-appointment-bot/vfs_appointment_bot/_VfsClient.py", line 64, in _login
+    _login_button = self._web_driver.find_element_by_xpath("//button/[@id='kc-login']")
+  File "/home/ubuntu/vfs-appointment-bot/venv/lib/python3.10/site-packages/selenium/webdriver/remote/webdriver.py", line 394, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "/home/ubuntu/vfs-appointment-bot/venv/lib/python3.10/site-packages/selenium/webdriver/remote/webdriver.py", line 976, in find_element
+    return self.execute(Command.FIND_ELEMENT, {
+  File "/home/ubuntu/vfs-appointment-bot/venv/lib/python3.10/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/home/ubuntu/vfs-appointment-bot/venv/lib/python3.10/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.InvalidSelectorException: Message: Given xpath expression "//button/[@id='kc-login']" is invalid: SyntaxError: Document.evaluate: The expression is not a legal expression
+Stack (most recent call last):
+  File "/home/ubuntu/vfs-france/vfs-france-appointment-bot/vfs_appointment_bot/vfs_appointment_bot.py", line 50, in <module>
+    logging.debug(e, exc_info=True, stack_info=True)
+[2024-03-10 08:50:50,424] DEBUG [_ConfigReader.py root read_prop (13)]: twilio_to_num:447767862175
+[2024-03-10 08:50:50,424] DEBUG [_ConfigReader.py root read_prop (13)]: twilio_from_num:447488881065
+[2024-03-10 08:50:50,424] DEBUG [_ConfigReader.py root read_prop (13)]: twilio_account_sid:AC2beaeda3bb2bf76619e8297de56f8b2c
+[2024-03-10 08:50:50,424] DEBUG [_ConfigReader.py root read_prop (13)]: twilio_auth_token:935dcc4560d768c2a834437db73bc6ef
+[2024-03-10 08:50:50,425] DEBUG [_ConfigReader.py root read_prop (13)]: twilio_url:twilio-url
+[2024-03-10 08:50:50,425] DEBUG [_ConfigReader.py root read_bool_prop (18)]: twilio_sms_enabled:True
+[2024-03-10 08:50:50,425] DEBUG [_ConfigReader.py root read_bool_prop (18)]: twilio_call_enabled:False
+[2024-03-10 08:50:50,425] DEBUG [_ConfigReader.py root read_prop (13)]: chat_id:7081442908
+[2024-03-10 08:50:50,426] DEBUG [_ConfigReader.py root read_prop (13)]: parse_mode:Markdown
+[2024-03-10 08:50:50,426] DEBUG [_ConfigReader.py root read_prop (13)]: bot_token:7007352620:AAH_MGTP1Ice4IR3UfJy25N4O-oJYo-og8U
+[2024-03-10 08:50:50,426] DEBUG [_ConfigReader.py root read_prop (13)]: use_telegram:True
+[2024-03-10 08:50:50,426] DEBUG [_ConfigReader.py root read_prop (13)]: use_twilio:False
+[2024-03-10 08:50:50,427] DEBUG [_VfsClient.py root __init__ (25)]: Will use Telegram : True
+[2024-03-10 08:50:50,427] DEBUG [_VfsClient.py root __init__ (26)]: Will use Twilio : False
+[2024-03-10 08:50:50,427] DEBUG [_ConfigReader.py root read_prop (13)]: interval:120
+[2024-03-10 08:50:50,427] DEBUG [vfs_appointment_bot.py __main__ <module> (37)]: Interval: 120
+[2024-03-10 08:50:50,428] INFO [vfs_appointment_bot.py __main__ <module> (41)]: Starting VFS Appointment Bot
+[2024-03-10 08:50:50,428] INFO [vfs_appointment_bot.py __main__ <module> (44)]: Running VFS Appointment Bot: Attempt#1
+[2024-03-10 08:50:54,773] DEBUG [_ConfigReader.py root read_prop (13)]: vfs_login_url:https://auth.visas-fr.tlscontact.com/auth/realms/atlas/protocol/openid-connect/auth?response_type=code&client_id=web_app&scope=openid%20roles%20atlas%20web-origins%20email%20offline_access%20profile%20address%20phone&state=k7R-JUCVSj4oQciRkEomCXfyVbjc91Ux8T6VlaYXq_s%3D&redirect_uri=https://visas-fr.tlscontact.com/login/oauth2/code/oidc&issuer=
+[2024-03-10 08:50:56,658] DEBUG [_ConfigReader.py root read_prop (13)]: vfs_email:futuresu44@gmail.com
+[2024-03-10 08:50:56,659] DEBUG [_ConfigReader.py root read_prop (13)]: vfs_password:Susan363196@
+[2024-03-10 08:50:56,659] DEBUG [_VfsClient.py root _login (54)]: Logging in with email: futuresu44@gmail.com
+[2024-03-10 08:51:06,749] INFO [vfs_appointment_bot.py __main__ <module> (49)]: Element <button id="kc-login" class="tls-button-primary -small" name="login" type="submit"> could not be scrolled into view. Please check the logs for more details
+[2024-03-10 08:51:06,750] DEBUG [vfs_appointment_bot.py __main__ <module> (50)]: Message: Element <button id="kc-login" class="tls-button-primary -small" name="login" type="submit"> could not be scrolled into view
+Traceback (most recent call last):
+  File "/home/ubuntu/vfs-france/vfs-france-appointment-bot/vfs_appointment_bot/vfs_appointment_bot.py", line 45, in <module>
+    _vfs_client.check_slot(visa_centre=visa_centre, category=category, sub_category=sub_category)
+  File "/home/ubuntu/vfs-france/vfs-france-appointment-bot/vfs_appointment_bot/_VfsClient.py", line 151, in check_slot
+    self._login()
+  File "/home/ubuntu/vfs-france/vfs-france-appointment-bot/vfs_appointment_bot/_VfsClient.py", line 66, in _login
+    _login_button.click()
+  File "/home/ubuntu/vfs-appointment-bot/venv/lib/python3.10/site-packages/selenium/webdriver/remote/webelement.py", line 80, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "/home/ubuntu/vfs-appointment-bot/venv/lib/python3.10/site-packages/selenium/webdriver/remote/webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "/home/ubuntu/vfs-appointment-bot/venv/lib/python3.10/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/home/ubuntu/vfs-appointment-bot/venv/lib/python3.10/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.ElementNotInteractableException: Message: Element <button id="kc-login" class="tls-button-primary -small" name="login" type="submit"> could not be scrolled into view
+Stack (most recent call last):
+  File "/home/ubuntu/vfs-france/vfs-france-appointment-bot/vfs_appointment_bot/vfs_appointment_bot.py", line 50, in <module>
+    logging.debug(e, exc_info=True, stack_info=True)
+[2024-03-10 08:52:07,824] INFO [vfs_appointment_bot.py __main__ <module> (44)]: Running VFS Appointment Bot: Attempt#2
+[2024-03-10 08:52:20,589] DEBUG [_ConfigReader.py root read_prop (13)]: vfs_login_url:https://auth.visas-fr.tlscontact.com/auth/realms/atlas/protocol/openid-connect/auth?response_type=code&client_id=web_app&scope=openid%20roles%20atlas%20web-origins%20email%20offline_access%20profile%20address%20phone&state=k7R-JUCVSj4oQciRkEomCXfyVbjc91Ux8T6VlaYXq_s%3D&redirect_uri=https://visas-fr.tlscontact.com/login/oauth2/code/oidc&issuer=
+[2024-03-10 08:52:28,978] DEBUG [_ConfigReader.py root read_prop (13)]: vfs_email:futuresu44@gmail.com
+[2024-03-10 08:52:28,981] DEBUG [_ConfigReader.py root read_prop (13)]: vfs_password:Susan363196@
+[2024-03-10 08:52:28,981] DEBUG [_VfsClient.py root _login (54)]: Logging in with email: futuresu44@gmail.com
+[2024-03-10 08:52:39,228] INFO [vfs_appointment_bot.py __main__ <module> (49)]: Element <button id="kc-login" class="tls-button-primary -small" name="login" type="submit"> could not be scrolled into view. Please check the logs for more details
+[2024-03-10 08:52:39,233] DEBUG [vfs_appointment_bot.py __main__ <module> (50)]: Message: Element <button id="kc-login" class="tls-button-primary -small" name="login" type="submit"> could not be scrolled into view
+Traceback (most recent call last):
+  File "/home/ubuntu/vfs-france/vfs-france-appointment-bot/vfs_appointment_bot/vfs_appointment_bot.py", line 45, in <module>
+    _vfs_client.check_slot(visa_centre=visa_centre, category=category, sub_category=sub_category)
+  File "/home/ubuntu/vfs-france/vfs-france-appointment-bot/vfs_appointment_bot/_VfsClient.py", line 151, in check_slot
+    self._login()
+  File "/home/ubuntu/vfs-france/vfs-france-appointment-bot/vfs_appointment_bot/_VfsClient.py", line 66, in _login
+    _login_button.click()
+  File "/home/ubuntu/vfs-appointment-bot/venv/lib/python3.10/site-packages/selenium/webdriver/remote/webelement.py", line 80, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "/home/ubuntu/vfs-appointment-bot/venv/lib/python3.10/site-packages/selenium/webdriver/remote/webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "/home/ubuntu/vfs-appointment-bot/venv/lib/python3.10/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/home/ubuntu/vfs-appointment-bot/venv/lib/python3.10/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.ElementNotInteractableException: Message: Element <button id="kc-login" class="tls-button-primary -small" name="login" type="submit"> could not be scrolled into view
+Stack (most recent call last):
+  File "/home/ubuntu/vfs-france/vfs-france-appointment-bot/vfs_appointment_bot/vfs_appointment_bot.py", line 50, in <module>
+    logging.debug(e, exc_info=True, stack_info=True)
+[2024-03-10 08:53:40,486] INFO [vfs_appointment_bot.py __main__ <module> (44)]: Running VFS Appointment Bot: Attempt#3
+[2024-03-10 08:55:35,562] DEBUG [_ConfigReader.py root read_prop (13)]: twilio_to_num:447767862175
+[2024-03-10 08:55:35,563] DEBUG [_ConfigReader.py root read_prop (13)]: twilio_from_num:447488881065
+[2024-03-10 08:55:35,563] DEBUG [_ConfigReader.py root read_prop (13)]: twilio_account_sid:AC2beaeda3bb2bf76619e8297de56f8b2c
+[2024-03-10 08:55:35,563] DEBUG [_ConfigReader.py root read_prop (13)]: twilio_auth_token:935dcc4560d768c2a834437db73bc6ef
+[2024-03-10 08:55:35,563] DEBUG [_ConfigReader.py root read_prop (13)]: twilio_url:twilio-url
+[2024-03-10 08:55:35,564] DEBUG [_ConfigReader.py root read_bool_prop (18)]: twilio_sms_enabled:True
+[2024-03-10 08:55:35,564] DEBUG [_ConfigReader.py root read_bool_prop (18)]: twilio_call_enabled:False
+[2024-03-10 08:55:35,564] DEBUG [_ConfigReader.py root read_prop (13)]: chat_id:7081442908
+[2024-03-10 08:55:35,564] DEBUG [_ConfigReader.py root read_prop (13)]: parse_mode:Markdown
+[2024-03-10 08:55:35,564] DEBUG [_ConfigReader.py root read_prop (13)]: bot_token:7007352620:AAH_MGTP1Ice4IR3UfJy25N4O-oJYo-og8U
+[2024-03-10 08:55:35,565] DEBUG [_ConfigReader.py root read_prop (13)]: use_telegram:True
+[2024-03-10 08:55:35,565] DEBUG [_ConfigReader.py root read_prop (13)]: use_twilio:False
+[2024-03-10 08:55:35,565] DEBUG [_VfsClient.py root __init__ (25)]: Will use Telegram : True
+[2024-03-10 08:55:35,565] DEBUG [_VfsClient.py root __init__ (26)]: Will use Twilio : False
+[2024-03-10 08:55:35,566] DEBUG [_ConfigReader.py root read_prop (13)]: interval:120
+[2024-03-10 08:55:35,566] DEBUG [vfs_appointment_bot.py __main__ <module> (37)]: Interval: 120
+[2024-03-10 08:55:35,566] INFO [vfs_appointment_bot.py __main__ <module> (41)]: Starting VFS Appointment Bot
+[2024-03-10 08:55:35,567] INFO [vfs_appointment_bot.py __main__ <module> (44)]: Running VFS Appointment Bot: Attempt#1
+[2024-03-10 08:55:43,421] DEBUG [_ConfigReader.py root read_prop (13)]: vfs_login_url:https://auth.visas-fr.tlscontact.com/auth/realms/atlas/protocol/openid-connect/auth?response_type=code&client_id=web_app&scope=openid%20roles%20atlas%20web-origins%20email%20offline_access%20profile%20address%20phone&state=k7R-JUCVSj4oQciRkEomCXfyVbjc91Ux8T6VlaYXq_s%3D&redirect_uri=https://visas-fr.tlscontact.com/login/oauth2/code/oidc&issuer=
+[2024-03-10 08:55:45,273] DEBUG [_ConfigReader.py root read_prop (13)]: vfs_email:futuresu44@gmail.com
+[2024-03-10 08:55:45,273] DEBUG [_ConfigReader.py root read_prop (13)]: vfs_password:Susan363196@
+[2024-03-10 08:55:45,273] DEBUG [_VfsClient.py root _login (54)]: Logging in with email: futuresu44@gmail.com
+[2024-03-10 08:55:55,345] INFO [vfs_appointment_bot.py __main__ <module> (49)]: Unable to locate element: //button[@id='kc-login']/span. Please check the logs for more details
+[2024-03-10 08:55:55,346] DEBUG [vfs_appointment_bot.py __main__ <module> (50)]: Message: Unable to locate element: //button[@id='kc-login']/span
+Traceback (most recent call last):
+  File "/home/ubuntu/vfs-france/vfs-france-appointment-bot/vfs_appointment_bot/vfs_appointment_bot.py", line 45, in <module>
+    _vfs_client.check_slot(visa_centre=visa_centre, category=category, sub_category=sub_category)
+  File "/home/ubuntu/vfs-france/vfs-france-appointment-bot/vfs_appointment_bot/_VfsClient.py", line 151, in check_slot
+    self._login()
+  File "/home/ubuntu/vfs-france/vfs-france-appointment-bot/vfs_appointment_bot/_VfsClient.py", line 64, in _login
+    _login_button = self._web_driver.find_element_by_xpath("//button[@id='kc-login']/span")
+  File "/home/ubuntu/vfs-appointment-bot/venv/lib/python3.10/site-packages/selenium/webdriver/remote/webdriver.py", line 394, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "/home/ubuntu/vfs-appointment-bot/venv/lib/python3.10/site-packages/selenium/webdriver/remote/webdriver.py", line 976, in find_element
+    return self.execute(Command.FIND_ELEMENT, {
+  File "/home/ubuntu/vfs-appointment-bot/venv/lib/python3.10/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/home/ubuntu/vfs-appointment-bot/venv/lib/python3.10/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: Unable to locate element: //button[@id='kc-login']/span
+Stack (most recent call last):
+  File "/home/ubuntu/vfs-france/vfs-france-appointment-bot/vfs_appointment_bot/vfs_appointment_bot.py", line 50, in <module>
+    logging.debug(e, exc_info=True, stack_info=True)
+[2024-03-10 08:59:08,937] DEBUG [_ConfigReader.py root read_prop (13)]: twilio_to_num:447767862175
+[2024-03-10 08:59:08,938] DEBUG [_ConfigReader.py root read_prop (13)]: twilio_from_num:447488881065
+[2024-03-10 08:59:08,938] DEBUG [_ConfigReader.py root read_prop (13)]: twilio_account_sid:AC2beaeda3bb2bf76619e8297de56f8b2c
+[2024-03-10 08:59:08,938] DEBUG [_ConfigReader.py root read_prop (13)]: twilio_auth_token:935dcc4560d768c2a834437db73bc6ef
+[2024-03-10 08:59:08,939] DEBUG [_ConfigReader.py root read_prop (13)]: twilio_url:twilio-url
+[2024-03-10 08:59:08,939] DEBUG [_ConfigReader.py root read_bool_prop (18)]: twilio_sms_enabled:True
+[2024-03-10 08:59:08,939] DEBUG [_ConfigReader.py root read_bool_prop (18)]: twilio_call_enabled:False
+[2024-03-10 08:59:08,939] DEBUG [_ConfigReader.py root read_prop (13)]: chat_id:7081442908
+[2024-03-10 08:59:08,940] DEBUG [_ConfigReader.py root read_prop (13)]: parse_mode:Markdown
+[2024-03-10 08:59:08,940] DEBUG [_ConfigReader.py root read_prop (13)]: bot_token:7007352620:AAH_MGTP1Ice4IR3UfJy25N4O-oJYo-og8U
+[2024-03-10 08:59:08,940] DEBUG [_ConfigReader.py root read_prop (13)]: use_telegram:True
+[2024-03-10 08:59:08,940] DEBUG [_ConfigReader.py root read_prop (13)]: use_twilio:False
+[2024-03-10 08:59:08,940] DEBUG [_VfsClient.py root __init__ (25)]: Will use Telegram : True
+[2024-03-10 08:59:08,941] DEBUG [_VfsClient.py root __init__ (26)]: Will use Twilio : False
+[2024-03-10 08:59:08,941] DEBUG [_ConfigReader.py root read_prop (13)]: interval:120
+[2024-03-10 08:59:08,941] DEBUG [vfs_appointment_bot.py __main__ <module> (37)]: Interval: 120
+[2024-03-10 08:59:08,941] INFO [vfs_appointment_bot.py __main__ <module> (41)]: Starting VFS Appointment Bot
+[2024-03-10 08:59:08,942] INFO [vfs_appointment_bot.py __main__ <module> (44)]: Running VFS Appointment Bot: Attempt#1
+[2024-03-10 08:59:13,222] DEBUG [_ConfigReader.py root read_prop (13)]: vfs_login_url:https://auth.visas-fr.tlscontact.com/auth/realms/atlas/protocol/openid-connect/auth?response_type=code&client_id=web_app&scope=openid%20roles%20atlas%20web-origins%20email%20offline_access%20profile%20address%20phone&state=k7R-JUCVSj4oQciRkEomCXfyVbjc91Ux8T6VlaYXq_s%3D&redirect_uri=https://visas-fr.tlscontact.com/login/oauth2/code/oidc&issuer=
+[2024-03-10 08:59:15,110] DEBUG [_ConfigReader.py root read_prop (13)]: vfs_email:futuresu44@gmail.com
+[2024-03-10 08:59:15,110] DEBUG [_ConfigReader.py root read_prop (13)]: vfs_password:Susan363196@
+[2024-03-10 08:59:15,110] DEBUG [_VfsClient.py root _login (54)]: Logging in with email: futuresu44@gmail.com
+[2024-03-10 08:59:25,197] INFO [vfs_appointment_bot.py __main__ <module> (49)]: Unable to locate element: //button/span. Please check the logs for more details
+[2024-03-10 08:59:25,197] DEBUG [vfs_appointment_bot.py __main__ <module> (50)]: Message: Unable to locate element: //button/span
+Traceback (most recent call last):
+  File "/home/ubuntu/vfs-france/vfs-france-appointment-bot/vfs_appointment_bot/vfs_appointment_bot.py", line 45, in <module>
+    _vfs_client.check_slot(visa_centre=visa_centre, category=category, sub_category=sub_category)
+  File "/home/ubuntu/vfs-france/vfs-france-appointment-bot/vfs_appointment_bot/_VfsClient.py", line 151, in check_slot
+    self._login()
+  File "/home/ubuntu/vfs-france/vfs-france-appointment-bot/vfs_appointment_bot/_VfsClient.py", line 65, in _login
+    _login_button = self._web_driver.find_element_by_xpath("//button/span")
+  File "/home/ubuntu/vfs-appointment-bot/venv/lib/python3.10/site-packages/selenium/webdriver/remote/webdriver.py", line 394, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "/home/ubuntu/vfs-appointment-bot/venv/lib/python3.10/site-packages/selenium/webdriver/remote/webdriver.py", line 976, in find_element
+    return self.execute(Command.FIND_ELEMENT, {
+  File "/home/ubuntu/vfs-appointment-bot/venv/lib/python3.10/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/home/ubuntu/vfs-appointment-bot/venv/lib/python3.10/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: Unable to locate element: //button/span
+Stack (most recent call last):
+  File "/home/ubuntu/vfs-france/vfs-france-appointment-bot/vfs_appointment_bot/vfs_appointment_bot.py", line 50, in <module>
+    logging.debug(e, exc_info=True, stack_info=True)
+[2024-03-10 09:01:57,056] DEBUG [_ConfigReader.py root read_prop (13)]: twilio_to_num:447767862175
+[2024-03-10 09:01:57,056] DEBUG [_ConfigReader.py root read_prop (13)]: twilio_from_num:447488881065
+[2024-03-10 09:01:57,056] DEBUG [_ConfigReader.py root read_prop (13)]: twilio_account_sid:AC2beaeda3bb2bf76619e8297de56f8b2c
+[2024-03-10 09:01:57,056] DEBUG [_ConfigReader.py root read_prop (13)]: twilio_auth_token:935dcc4560d768c2a834437db73bc6ef
+[2024-03-10 09:01:57,057] DEBUG [_ConfigReader.py root read_prop (13)]: twilio_url:twilio-url
+[2024-03-10 09:01:57,057] DEBUG [_ConfigReader.py root read_bool_prop (18)]: twilio_sms_enabled:True
+[2024-03-10 09:01:57,057] DEBUG [_ConfigReader.py root read_bool_prop (18)]: twilio_call_enabled:False
+[2024-03-10 09:01:57,057] DEBUG [_ConfigReader.py root read_prop (13)]: chat_id:7081442908
+[2024-03-10 09:01:57,058] DEBUG [_ConfigReader.py root read_prop (13)]: parse_mode:Markdown
+[2024-03-10 09:01:57,058] DEBUG [_ConfigReader.py root read_prop (13)]: bot_token:7007352620:AAH_MGTP1Ice4IR3UfJy25N4O-oJYo-og8U
+[2024-03-10 09:01:57,058] DEBUG [_ConfigReader.py root read_prop (13)]: use_telegram:True
+[2024-03-10 09:01:57,058] DEBUG [_ConfigReader.py root read_prop (13)]: use_twilio:False
+[2024-03-10 09:01:57,059] DEBUG [_VfsClient.py root __init__ (25)]: Will use Telegram : True
+[2024-03-10 09:01:57,059] DEBUG [_VfsClient.py root __init__ (26)]: Will use Twilio : False
+[2024-03-10 09:01:57,059] DEBUG [_ConfigReader.py root read_prop (13)]: interval:120
+[2024-03-10 09:01:57,059] DEBUG [vfs_appointment_bot.py __main__ <module> (37)]: Interval: 120
+[2024-03-10 09:01:57,059] INFO [vfs_appointment_bot.py __main__ <module> (41)]: Starting VFS Appointment Bot
+[2024-03-10 09:01:57,060] INFO [vfs_appointment_bot.py __main__ <module> (44)]: Running VFS Appointment Bot: Attempt#1
+[2024-03-10 09:02:01,468] DEBUG [_ConfigReader.py root read_prop (13)]: vfs_login_url:https://auth.visas-fr.tlscontact.com/auth/realms/atlas/protocol/openid-connect/auth?response_type=code&client_id=web_app&scope=openid%20roles%20atlas%20web-origins%20email%20offline_access%20profile%20address%20phone&state=k7R-JUCVSj4oQciRkEomCXfyVbjc91Ux8T6VlaYXq_s%3D&redirect_uri=https://visas-fr.tlscontact.com/login/oauth2/code/oidc&issuer=
+[2024-03-10 09:02:03,427] DEBUG [_ConfigReader.py root read_prop (13)]: vfs_email:futuresu44@gmail.com
+[2024-03-10 09:02:03,427] DEBUG [_ConfigReader.py root read_prop (13)]: vfs_password:Susan363196@
+[2024-03-10 09:02:03,427] DEBUG [_VfsClient.py root _login (54)]: Logging in with email: futuresu44@gmail.com
+[2024-03-10 09:02:13,505] INFO [vfs_appointment_bot.py __main__ <module> (49)]: Unable to locate element: //button[@id='kc-login']/span. Please check the logs for more details
+[2024-03-10 09:02:13,505] DEBUG [vfs_appointment_bot.py __main__ <module> (50)]: Message: Unable to locate element: //button[@id='kc-login']/span
+Traceback (most recent call last):
+  File "/home/ubuntu/vfs-france/vfs-france-appointment-bot/vfs_appointment_bot/vfs_appointment_bot.py", line 45, in <module>
+    _vfs_client.check_slot(visa_centre=visa_centre, category=category, sub_category=sub_category)
+  File "/home/ubuntu/vfs-france/vfs-france-appointment-bot/vfs_appointment_bot/_VfsClient.py", line 151, in check_slot
+    self._login()
+  File "/home/ubuntu/vfs-france/vfs-france-appointment-bot/vfs_appointment_bot/_VfsClient.py", line 64, in _login
+    _login_button = self._web_driver.find_element_by_xpath("//button[@id='kc-login']/span")
+  File "/home/ubuntu/vfs-appointment-bot/venv/lib/python3.10/site-packages/selenium/webdriver/remote/webdriver.py", line 394, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "/home/ubuntu/vfs-appointment-bot/venv/lib/python3.10/site-packages/selenium/webdriver/remote/webdriver.py", line 976, in find_element
+    return self.execute(Command.FIND_ELEMENT, {
+  File "/home/ubuntu/vfs-appointment-bot/venv/lib/python3.10/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/home/ubuntu/vfs-appointment-bot/venv/lib/python3.10/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: Unable to locate element: //button[@id='kc-login']/span
+Stack (most recent call last):
+  File "/home/ubuntu/vfs-france/vfs-france-appointment-bot/vfs_appointment_bot/vfs_appointment_bot.py", line 50, in <module>
+    logging.debug(e, exc_info=True, stack_info=True)
+[2024-03-10 09:02:57,801] DEBUG [_ConfigReader.py root read_prop (13)]: twilio_to_num:447767862175
+[2024-03-10 09:02:57,801] DEBUG [_ConfigReader.py root read_prop (13)]: twilio_from_num:447488881065
+[2024-03-10 09:02:57,802] DEBUG [_ConfigReader.py root read_prop (13)]: twilio_account_sid:AC2beaeda3bb2bf76619e8297de56f8b2c
+[2024-03-10 09:02:57,802] DEBUG [_ConfigReader.py root read_prop (13)]: twilio_auth_token:935dcc4560d768c2a834437db73bc6ef
+[2024-03-10 09:02:57,802] DEBUG [_ConfigReader.py root read_prop (13)]: twilio_url:twilio-url
+[2024-03-10 09:02:57,802] DEBUG [_ConfigReader.py root read_bool_prop (18)]: twilio_sms_enabled:True
+[2024-03-10 09:02:57,803] DEBUG [_ConfigReader.py root read_bool_prop (18)]: twilio_call_enabled:False
+[2024-03-10 09:02:57,803] DEBUG [_ConfigReader.py root read_prop (13)]: chat_id:7081442908
+[2024-03-10 09:02:57,803] DEBUG [_ConfigReader.py root read_prop (13)]: parse_mode:Markdown
+[2024-03-10 09:02:57,803] DEBUG [_ConfigReader.py root read_prop (13)]: bot_token:7007352620:AAH_MGTP1Ice4IR3UfJy25N4O-oJYo-og8U
+[2024-03-10 09:02:57,804] DEBUG [_ConfigReader.py root read_prop (13)]: use_telegram:True
+[2024-03-10 09:02:57,804] DEBUG [_ConfigReader.py root read_prop (13)]: use_twilio:False
+[2024-03-10 09:02:57,804] DEBUG [_VfsClient.py root __init__ (25)]: Will use Telegram : True
+[2024-03-10 09:02:57,804] DEBUG [_VfsClient.py root __init__ (26)]: Will use Twilio : False
+[2024-03-10 09:02:57,805] DEBUG [_ConfigReader.py root read_prop (13)]: interval:120
+[2024-03-10 09:02:57,805] DEBUG [vfs_appointment_bot.py __main__ <module> (37)]: Interval: 120
+[2024-03-10 09:02:57,805] INFO [vfs_appointment_bot.py __main__ <module> (41)]: Starting VFS Appointment Bot
+[2024-03-10 09:02:57,805] INFO [vfs_appointment_bot.py __main__ <module> (44)]: Running VFS Appointment Bot: Attempt#1
+[2024-03-10 09:03:02,090] DEBUG [_ConfigReader.py root read_prop (13)]: vfs_login_url:https://auth.visas-fr.tlscontact.com/auth/realms/atlas/protocol/openid-connect/auth?response_type=code&client_id=web_app&scope=openid%20roles%20atlas%20web-origins%20email%20offline_access%20profile%20address%20phone&state=k7R-JUCVSj4oQciRkEomCXfyVbjc91Ux8T6VlaYXq_s%3D&redirect_uri=https://visas-fr.tlscontact.com/login/oauth2/code/oidc&issuer=
+[2024-03-10 09:03:03,965] DEBUG [_ConfigReader.py root read_prop (13)]: vfs_email:futuresu44@gmail.com
+[2024-03-10 09:03:03,965] DEBUG [_ConfigReader.py root read_prop (13)]: vfs_password:Susan363196@
+[2024-03-10 09:03:03,965] DEBUG [_VfsClient.py root _login (54)]: Logging in with email: futuresu44@gmail.com
+[2024-03-10 09:03:14,051] INFO [vfs_appointment_bot.py __main__ <module> (49)]: Element <button id="kc-login" class="tls-button-primary -small" name="login" type="submit"> could not be scrolled into view. Please check the logs for more details
+[2024-03-10 09:03:14,051] DEBUG [vfs_appointment_bot.py __main__ <module> (50)]: Message: Element <button id="kc-login" class="tls-button-primary -small" name="login" type="submit"> could not be scrolled into view
+Traceback (most recent call last):
+  File "/home/ubuntu/vfs-france/vfs-france-appointment-bot/vfs_appointment_bot/vfs_appointment_bot.py", line 45, in <module>
+    _vfs_client.check_slot(visa_centre=visa_centre, category=category, sub_category=sub_category)
+  File "/home/ubuntu/vfs-france/vfs-france-appointment-bot/vfs_appointment_bot/_VfsClient.py", line 151, in check_slot
+    self._login()
+  File "/home/ubuntu/vfs-france/vfs-france-appointment-bot/vfs_appointment_bot/_VfsClient.py", line 66, in _login
+    _login_button.click()
+  File "/home/ubuntu/vfs-appointment-bot/venv/lib/python3.10/site-packages/selenium/webdriver/remote/webelement.py", line 80, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "/home/ubuntu/vfs-appointment-bot/venv/lib/python3.10/site-packages/selenium/webdriver/remote/webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "/home/ubuntu/vfs-appointment-bot/venv/lib/python3.10/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/home/ubuntu/vfs-appointment-bot/venv/lib/python3.10/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.ElementNotInteractableException: Message: Element <button id="kc-login" class="tls-button-primary -small" name="login" type="submit"> could not be scrolled into view
+Stack (most recent call last):
+  File "/home/ubuntu/vfs-france/vfs-france-appointment-bot/vfs_appointment_bot/vfs_appointment_bot.py", line 50, in <module>
+    logging.debug(e, exc_info=True, stack_info=True)

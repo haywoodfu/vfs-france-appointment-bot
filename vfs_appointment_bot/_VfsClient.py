@@ -61,14 +61,26 @@ class _VfsClient:
         _email_input.send_keys(_email)
         _password_input = self._web_driver.find_element_by_xpath("//input[@id='password']")
         _password_input.send_keys(_password)
+
         _login_button = self._web_driver.find_element_by_xpath("//button[@id='kc-login']")
+        self._web_driver.execute_script("arguments[0].click();",_login_button)
+        #_login_button.location_once_scrolled_into_view
+        #_login_button.click()
+
+        #WebElement element = self._web_driver.findElement("//button[@id='kc-login']")               
+        #Actions act=new Actions(self._web_driver)
+        #act.moveToElement(element).click().perform()
+        #time.sleep(2)
+        #_login_button = self._web_driver.find_element_by_xpath("//button[@id='kc-login']")
+        #time.sleep(10)
         # _login_button = self._web_driver.find_element_by_xpath("//button/span")
-        _login_button.click()
+        #_login_button.click()
         time.sleep(10)
+        print(self._web_driver.page_source)
 
     def _validate_login(self):
         try:
-            _new_booking_button = self._web_driver.find_element_by_xpath("//section/div/div[2]/button/span")
+            _new_booking_button = self._web_driver.find_element_by_class_name("tls-appointment-content")
             if _new_booking_button == None:
                 logging.debug("Unable to login. VFS website is not responding")
                 raise Exception("Unable to login. VFS website is not responding")
