@@ -1,0 +1,193 @@
+[2024-03-11 12:09:19,269] DEBUG [_ConfigReader.py root read_prop (13)]: twilio_to_num:447767862175
+[2024-03-11 12:09:19,269] DEBUG [_ConfigReader.py root read_prop (13)]: twilio_from_num:447488881065
+[2024-03-11 12:09:19,269] DEBUG [_ConfigReader.py root read_prop (13)]: twilio_account_sid:AC2beaeda3bb2bf76619e8297de56f8b2c
+[2024-03-11 12:09:19,269] DEBUG [_ConfigReader.py root read_prop (13)]: twilio_auth_token:935dcc4560d768c2a834437db73bc6ef
+[2024-03-11 12:09:19,269] DEBUG [_ConfigReader.py root read_prop (13)]: twilio_url:twilio-url
+[2024-03-11 12:09:19,269] DEBUG [_ConfigReader.py root read_bool_prop (18)]: twilio_sms_enabled:True
+[2024-03-11 12:09:19,269] DEBUG [_ConfigReader.py root read_bool_prop (18)]: twilio_call_enabled:False
+[2024-03-11 12:09:19,270] DEBUG [_ConfigReader.py root read_prop (13)]: chat_id:7081442908
+[2024-03-11 12:09:19,270] DEBUG [_ConfigReader.py root read_prop (13)]: parse_mode:Markdown
+[2024-03-11 12:09:19,270] DEBUG [_ConfigReader.py root read_prop (13)]: bot_token:7007352620:AAH_MGTP1Ice4IR3UfJy25N4O-oJYo-og8U
+[2024-03-11 12:09:19,270] DEBUG [_ConfigReader.py root read_prop (13)]: use_telegram:True
+[2024-03-11 12:09:19,270] DEBUG [_ConfigReader.py root read_prop (13)]: use_twilio:False
+[2024-03-11 12:09:19,270] DEBUG [_VfsClient.py root __init__ (25)]: Will use Telegram : True
+[2024-03-11 12:09:19,270] DEBUG [_VfsClient.py root __init__ (26)]: Will use Twilio : False
+[2024-03-11 12:09:19,271] DEBUG [_ConfigReader.py root read_prop (13)]: interval:120
+[2024-03-11 12:09:19,271] DEBUG [vfs_appointment_bot.py __main__ <module> (37)]: Interval: 120
+[2024-03-11 12:09:19,271] INFO [vfs_appointment_bot.py __main__ <module> (41)]: Starting VFS Appointment Bot
+[2024-03-11 12:09:19,271] INFO [vfs_appointment_bot.py __main__ <module> (44)]: Running VFS Appointment Bot: Attempt#1
+[2024-03-11 12:13:10,370] DEBUG [_ConfigReader.py root read_prop (13)]: twilio_to_num:447767862175
+[2024-03-11 12:13:10,370] DEBUG [_ConfigReader.py root read_prop (13)]: twilio_from_num:447488881065
+[2024-03-11 12:13:10,370] DEBUG [_ConfigReader.py root read_prop (13)]: twilio_account_sid:AC2beaeda3bb2bf76619e8297de56f8b2c
+[2024-03-11 12:13:10,370] DEBUG [_ConfigReader.py root read_prop (13)]: twilio_auth_token:935dcc4560d768c2a834437db73bc6ef
+[2024-03-11 12:13:10,370] DEBUG [_ConfigReader.py root read_prop (13)]: twilio_url:twilio-url
+[2024-03-11 12:13:10,370] DEBUG [_ConfigReader.py root read_bool_prop (18)]: twilio_sms_enabled:True
+[2024-03-11 12:13:10,370] DEBUG [_ConfigReader.py root read_bool_prop (18)]: twilio_call_enabled:False
+[2024-03-11 12:13:10,370] DEBUG [_ConfigReader.py root read_prop (13)]: chat_id:7081442908
+[2024-03-11 12:13:10,370] DEBUG [_ConfigReader.py root read_prop (13)]: parse_mode:Markdown
+[2024-03-11 12:13:10,371] DEBUG [_ConfigReader.py root read_prop (13)]: bot_token:7007352620:AAH_MGTP1Ice4IR3UfJy25N4O-oJYo-og8U
+[2024-03-11 12:13:10,371] DEBUG [_ConfigReader.py root read_prop (13)]: use_telegram:True
+[2024-03-11 12:13:10,371] DEBUG [_ConfigReader.py root read_prop (13)]: use_twilio:False
+[2024-03-11 12:13:10,371] DEBUG [_VfsClient.py root __init__ (25)]: Will use Telegram : True
+[2024-03-11 12:13:10,371] DEBUG [_VfsClient.py root __init__ (26)]: Will use Twilio : False
+[2024-03-11 12:13:10,371] DEBUG [_ConfigReader.py root read_prop (13)]: interval:120
+[2024-03-11 12:13:10,371] DEBUG [vfs_appointment_bot.py __main__ <module> (37)]: Interval: 120
+[2024-03-11 12:13:10,371] INFO [vfs_appointment_bot.py __main__ <module> (41)]: Starting VFS Appointment Bot
+[2024-03-11 12:13:10,372] INFO [vfs_appointment_bot.py __main__ <module> (44)]: Running VFS Appointment Bot: Attempt#1
+[2024-03-11 12:14:56,893] DEBUG [_ConfigReader.py root read_prop (13)]: twilio_to_num:447767862175
+[2024-03-11 12:14:56,894] DEBUG [_ConfigReader.py root read_prop (13)]: twilio_from_num:447488881065
+[2024-03-11 12:14:56,894] DEBUG [_ConfigReader.py root read_prop (13)]: twilio_account_sid:AC2beaeda3bb2bf76619e8297de56f8b2c
+[2024-03-11 12:14:56,894] DEBUG [_ConfigReader.py root read_prop (13)]: twilio_auth_token:935dcc4560d768c2a834437db73bc6ef
+[2024-03-11 12:14:56,894] DEBUG [_ConfigReader.py root read_prop (13)]: twilio_url:twilio-url
+[2024-03-11 12:14:56,894] DEBUG [_ConfigReader.py root read_bool_prop (18)]: twilio_sms_enabled:True
+[2024-03-11 12:14:56,894] DEBUG [_ConfigReader.py root read_bool_prop (18)]: twilio_call_enabled:False
+[2024-03-11 12:14:56,894] DEBUG [_ConfigReader.py root read_prop (13)]: chat_id:7081442908
+[2024-03-11 12:14:56,894] DEBUG [_ConfigReader.py root read_prop (13)]: parse_mode:Markdown
+[2024-03-11 12:14:56,894] DEBUG [_ConfigReader.py root read_prop (13)]: bot_token:7007352620:AAH_MGTP1Ice4IR3UfJy25N4O-oJYo-og8U
+[2024-03-11 12:14:56,895] DEBUG [_ConfigReader.py root read_prop (13)]: use_telegram:True
+[2024-03-11 12:14:56,895] DEBUG [_ConfigReader.py root read_prop (13)]: use_twilio:False
+[2024-03-11 12:14:56,895] DEBUG [_VfsClient.py root __init__ (25)]: Will use Telegram : True
+[2024-03-11 12:14:56,895] DEBUG [_VfsClient.py root __init__ (26)]: Will use Twilio : False
+[2024-03-11 12:14:56,895] DEBUG [_ConfigReader.py root read_prop (13)]: interval:120
+[2024-03-11 12:14:56,895] DEBUG [vfs_appointment_bot.py __main__ <module> (37)]: Interval: 120
+[2024-03-11 12:14:56,895] INFO [vfs_appointment_bot.py __main__ <module> (41)]: Starting VFS Appointment Bot
+[2024-03-11 12:14:56,895] INFO [vfs_appointment_bot.py __main__ <module> (44)]: Running VFS Appointment Bot: Attempt#1
+[2024-03-11 12:22:28,083] DEBUG [_ConfigReader.py root read_prop (13)]: twilio_to_num:447767862175
+[2024-03-11 12:22:28,083] DEBUG [_ConfigReader.py root read_prop (13)]: twilio_from_num:447488881065
+[2024-03-11 12:22:28,084] DEBUG [_ConfigReader.py root read_prop (13)]: twilio_account_sid:AC2beaeda3bb2bf76619e8297de56f8b2c
+[2024-03-11 12:22:28,084] DEBUG [_ConfigReader.py root read_prop (13)]: twilio_auth_token:935dcc4560d768c2a834437db73bc6ef
+[2024-03-11 12:22:28,084] DEBUG [_ConfigReader.py root read_prop (13)]: twilio_url:twilio-url
+[2024-03-11 12:22:28,084] DEBUG [_ConfigReader.py root read_bool_prop (18)]: twilio_sms_enabled:True
+[2024-03-11 12:22:28,084] DEBUG [_ConfigReader.py root read_bool_prop (18)]: twilio_call_enabled:False
+[2024-03-11 12:22:28,084] DEBUG [_ConfigReader.py root read_prop (13)]: chat_id:7081442908
+[2024-03-11 12:22:28,084] DEBUG [_ConfigReader.py root read_prop (13)]: parse_mode:Markdown
+[2024-03-11 12:22:28,084] DEBUG [_ConfigReader.py root read_prop (13)]: bot_token:7007352620:AAH_MGTP1Ice4IR3UfJy25N4O-oJYo-og8U
+[2024-03-11 12:22:28,085] DEBUG [_ConfigReader.py root read_prop (13)]: use_telegram:True
+[2024-03-11 12:22:28,085] DEBUG [_ConfigReader.py root read_prop (13)]: use_twilio:False
+[2024-03-11 12:22:28,085] DEBUG [_VfsClient.py root __init__ (25)]: Will use Telegram : True
+[2024-03-11 12:22:28,085] DEBUG [_VfsClient.py root __init__ (26)]: Will use Twilio : False
+[2024-03-11 12:22:28,085] DEBUG [_ConfigReader.py root read_prop (13)]: interval:120
+[2024-03-11 12:22:28,085] DEBUG [vfs_appointment_bot.py __main__ <module> (37)]: Interval: 120
+[2024-03-11 12:22:28,086] INFO [vfs_appointment_bot.py __main__ <module> (41)]: Starting VFS Appointment Bot
+[2024-03-11 12:22:28,086] INFO [vfs_appointment_bot.py __main__ <module> (44)]: Running VFS Appointment Bot: Attempt#1
+[2024-03-11 12:22:28,089] INFO [vfs_appointment_bot.py __main__ <module> (49)]: 'geckodriver' executable needs to be in PATH. . Please check the logs for more details
+[2024-03-11 12:22:28,090] DEBUG [vfs_appointment_bot.py __main__ <module> (50)]: Message: 'geckodriver' executable needs to be in PATH. 
+Traceback (most recent call last):
+  File "/Users/haywood/Documents/Develop/python/vfs-france-appointment-bot/venv/lib/python3.9/site-packages/selenium/webdriver/common/service.py", line 72, in start
+    self.process = subprocess.Popen(cmd, env=self.env,
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/subprocess.py", line 951, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/subprocess.py", line 1821, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: 'geckodriver'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/haywood/Documents/Develop/python/vfs-france-appointment-bot/vfs_appointment_bot/vfs_appointment_bot.py", line 45, in <module>
+    _vfs_client.check_slot(visa_centre=visa_centre, category=category, sub_category=sub_category)
+  File "/Users/haywood/Documents/Develop/python/vfs-france-appointment-bot/vfs_appointment_bot/_VfsClient.py", line 157, in check_slot
+    self._init_web_driver()
+  File "/Users/haywood/Documents/Develop/python/vfs-france-appointment-bot/vfs_appointment_bot/_VfsClient.py", line 42, in _init_web_driver
+    self._web_driver = webdriver.Firefox(options=firefox_options)
+  File "/Users/haywood/Documents/Develop/python/vfs-france-appointment-bot/venv/lib/python3.9/site-packages/selenium/webdriver/firefox/webdriver.py", line 164, in __init__
+    self.service.start()
+  File "/Users/haywood/Documents/Develop/python/vfs-france-appointment-bot/venv/lib/python3.9/site-packages/selenium/webdriver/common/service.py", line 81, in start
+    raise WebDriverException(
+selenium.common.exceptions.WebDriverException: Message: 'geckodriver' executable needs to be in PATH. 
+Stack (most recent call last):
+  File "/Users/haywood/Documents/Develop/python/vfs-france-appointment-bot/vfs_appointment_bot/vfs_appointment_bot.py", line 50, in <module>
+    logging.debug(e, exc_info=True, stack_info=True)
+[2024-03-11 12:22:54,805] DEBUG [_ConfigReader.py root read_prop (13)]: twilio_to_num:447767862175
+[2024-03-11 12:22:54,805] DEBUG [_ConfigReader.py root read_prop (13)]: twilio_from_num:447488881065
+[2024-03-11 12:22:54,805] DEBUG [_ConfigReader.py root read_prop (13)]: twilio_account_sid:AC2beaeda3bb2bf76619e8297de56f8b2c
+[2024-03-11 12:22:54,805] DEBUG [_ConfigReader.py root read_prop (13)]: twilio_auth_token:935dcc4560d768c2a834437db73bc6ef
+[2024-03-11 12:22:54,805] DEBUG [_ConfigReader.py root read_prop (13)]: twilio_url:twilio-url
+[2024-03-11 12:22:54,805] DEBUG [_ConfigReader.py root read_bool_prop (18)]: twilio_sms_enabled:True
+[2024-03-11 12:22:54,805] DEBUG [_ConfigReader.py root read_bool_prop (18)]: twilio_call_enabled:False
+[2024-03-11 12:22:54,805] DEBUG [_ConfigReader.py root read_prop (13)]: chat_id:7081442908
+[2024-03-11 12:22:54,806] DEBUG [_ConfigReader.py root read_prop (13)]: parse_mode:Markdown
+[2024-03-11 12:22:54,806] DEBUG [_ConfigReader.py root read_prop (13)]: bot_token:7007352620:AAH_MGTP1Ice4IR3UfJy25N4O-oJYo-og8U
+[2024-03-11 12:22:54,806] DEBUG [_ConfigReader.py root read_prop (13)]: use_telegram:True
+[2024-03-11 12:22:54,806] DEBUG [_ConfigReader.py root read_prop (13)]: use_twilio:False
+[2024-03-11 12:22:54,806] DEBUG [_VfsClient.py root __init__ (25)]: Will use Telegram : True
+[2024-03-11 12:22:54,806] DEBUG [_VfsClient.py root __init__ (26)]: Will use Twilio : False
+[2024-03-11 12:22:54,806] DEBUG [_ConfigReader.py root read_prop (13)]: interval:120
+[2024-03-11 12:22:54,806] DEBUG [vfs_appointment_bot.py __main__ <module> (37)]: Interval: 120
+[2024-03-11 12:22:54,806] INFO [vfs_appointment_bot.py __main__ <module> (41)]: Starting VFS Appointment Bot
+[2024-03-11 12:22:54,807] INFO [vfs_appointment_bot.py __main__ <module> (44)]: Running VFS Appointment Bot: Attempt#1
+[2024-03-11 12:22:55,829] INFO [vfs_appointment_bot.py __main__ <module> (49)]: Expected browser binary location, but unable to find binary in default location, no 'moz:firefoxOptions.binary' capability provided, and no binary flag set on the command line. Please check the logs for more details
+[2024-03-11 12:22:55,830] DEBUG [vfs_appointment_bot.py __main__ <module> (50)]: Message: Expected browser binary location, but unable to find binary in default location, no 'moz:firefoxOptions.binary' capability provided, and no binary flag set on the command line
+Traceback (most recent call last):
+  File "/Users/haywood/Documents/Develop/python/vfs-france-appointment-bot/vfs_appointment_bot/vfs_appointment_bot.py", line 45, in <module>
+    _vfs_client.check_slot(visa_centre=visa_centre, category=category, sub_category=sub_category)
+  File "/Users/haywood/Documents/Develop/python/vfs-france-appointment-bot/vfs_appointment_bot/_VfsClient.py", line 157, in check_slot
+    self._init_web_driver()
+  File "/Users/haywood/Documents/Develop/python/vfs-france-appointment-bot/vfs_appointment_bot/_VfsClient.py", line 42, in _init_web_driver
+    self._web_driver = webdriver.Firefox(options=firefox_options)
+  File "/Users/haywood/Documents/Develop/python/vfs-france-appointment-bot/venv/lib/python3.9/site-packages/selenium/webdriver/firefox/webdriver.py", line 170, in __init__
+    RemoteWebDriver.__init__(
+  File "/Users/haywood/Documents/Develop/python/vfs-france-appointment-bot/venv/lib/python3.9/site-packages/selenium/webdriver/remote/webdriver.py", line 157, in __init__
+    self.start_session(capabilities, browser_profile)
+  File "/Users/haywood/Documents/Develop/python/vfs-france-appointment-bot/venv/lib/python3.9/site-packages/selenium/webdriver/remote/webdriver.py", line 252, in start_session
+    response = self.execute(Command.NEW_SESSION, parameters)
+  File "/Users/haywood/Documents/Develop/python/vfs-france-appointment-bot/venv/lib/python3.9/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/Users/haywood/Documents/Develop/python/vfs-france-appointment-bot/venv/lib/python3.9/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.SessionNotCreatedException: Message: Expected browser binary location, but unable to find binary in default location, no 'moz:firefoxOptions.binary' capability provided, and no binary flag set on the command line
+Stack (most recent call last):
+  File "/Users/haywood/Documents/Develop/python/vfs-france-appointment-bot/vfs_appointment_bot/vfs_appointment_bot.py", line 50, in <module>
+    logging.debug(e, exc_info=True, stack_info=True)
+[2024-03-11 12:28:07,513] DEBUG [_ConfigReader.py root read_prop (13)]: twilio_to_num:447767862175
+[2024-03-11 12:28:07,513] DEBUG [_ConfigReader.py root read_prop (13)]: twilio_from_num:447488881065
+[2024-03-11 12:28:07,513] DEBUG [_ConfigReader.py root read_prop (13)]: twilio_account_sid:AC2beaeda3bb2bf76619e8297de56f8b2c
+[2024-03-11 12:28:07,513] DEBUG [_ConfigReader.py root read_prop (13)]: twilio_auth_token:935dcc4560d768c2a834437db73bc6ef
+[2024-03-11 12:28:07,514] DEBUG [_ConfigReader.py root read_prop (13)]: twilio_url:twilio-url
+[2024-03-11 12:28:07,514] DEBUG [_ConfigReader.py root read_bool_prop (18)]: twilio_sms_enabled:True
+[2024-03-11 12:28:07,514] DEBUG [_ConfigReader.py root read_bool_prop (18)]: twilio_call_enabled:False
+[2024-03-11 12:28:07,514] DEBUG [_ConfigReader.py root read_prop (13)]: chat_id:7081442908
+[2024-03-11 12:28:07,514] DEBUG [_ConfigReader.py root read_prop (13)]: parse_mode:Markdown
+[2024-03-11 12:28:07,514] DEBUG [_ConfigReader.py root read_prop (13)]: bot_token:7007352620:AAH_MGTP1Ice4IR3UfJy25N4O-oJYo-og8U
+[2024-03-11 12:28:07,515] DEBUG [_ConfigReader.py root read_prop (13)]: use_telegram:True
+[2024-03-11 12:28:07,515] DEBUG [_ConfigReader.py root read_prop (13)]: use_twilio:False
+[2024-03-11 12:28:07,515] DEBUG [_VfsClient.py root __init__ (25)]: Will use Telegram : True
+[2024-03-11 12:28:07,515] DEBUG [_VfsClient.py root __init__ (26)]: Will use Twilio : False
+[2024-03-11 12:28:07,515] DEBUG [_ConfigReader.py root read_prop (13)]: interval:120
+[2024-03-11 12:28:07,515] DEBUG [vfs_appointment_bot.py __main__ <module> (37)]: Interval: 120
+[2024-03-11 12:28:07,515] INFO [vfs_appointment_bot.py __main__ <module> (41)]: Starting VFS Appointment Bot
+[2024-03-11 12:28:07,515] INFO [vfs_appointment_bot.py __main__ <module> (44)]: Running VFS Appointment Bot: Attempt#1
+[2024-03-11 12:28:10,634] DEBUG [_ConfigReader.py root read_prop (13)]: vfs_login_url:https://auth.visas-fr.tlscontact.com/auth/realms/atlas/protocol/openid-connect/auth?response_type=code&client_id=web_app&scope=openid%20roles%20atlas%20web-origins%20email%20offline_access%20profile%20address%20phone&state=A-YpBIzDctSBJLH-Y0YZod89sg8-KbUN13rxa_UYq6w%3D&redirect_uri=https://visas-fr.tlscontact.com/appointment/gb/gbLON2fr/15060605
+[2024-03-11 12:28:21,360] DEBUG [_ConfigReader.py root read_prop (13)]: vfs_email:futuresu44@gmail.com
+[2024-03-11 12:28:21,361] DEBUG [_ConfigReader.py root read_prop (13)]: vfs_password:Susan363196@
+[2024-03-11 12:28:21,361] DEBUG [_VfsClient.py root _login (54)]: Logging in with email: futuresu44@gmail.com
+[2024-03-11 12:28:41,439] DEBUG [_VfsClient.py root _validate_login (90)]: Unable to login. VFS website is not responding
+[2024-03-11 12:28:41,439] INFO [vfs_appointment_bot.py __main__ <module> (49)]: Unable to login. VFS website is not responding. Please check the logs for more details
+[2024-03-11 12:28:41,440] DEBUG [vfs_appointment_bot.py __main__ <module> (50)]: Unable to login. VFS website is not responding
+Traceback (most recent call last):
+  File "/Users/haywood/Documents/Develop/python/vfs-france-appointment-bot/vfs_appointment_bot/_VfsClient.py", line 83, in _validate_login
+    _new_booking_button = self._web_driver.find_element_by_class_name("tls-appointment-content")
+  File "/Users/haywood/Documents/Develop/python/vfs-france-appointment-bot/venv/lib/python3.9/site-packages/selenium/webdriver/remote/webdriver.py", line 564, in find_element_by_class_name
+    return self.find_element(by=By.CLASS_NAME, value=name)
+  File "/Users/haywood/Documents/Develop/python/vfs-france-appointment-bot/venv/lib/python3.9/site-packages/selenium/webdriver/remote/webdriver.py", line 976, in find_element
+    return self.execute(Command.FIND_ELEMENT, {
+  File "/Users/haywood/Documents/Develop/python/vfs-france-appointment-bot/venv/lib/python3.9/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/Users/haywood/Documents/Develop/python/vfs-france-appointment-bot/venv/lib/python3.9/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: Unable to locate element: .tls-appointment-content
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/haywood/Documents/Develop/python/vfs-france-appointment-bot/vfs_appointment_bot/vfs_appointment_bot.py", line 45, in <module>
+    _vfs_client.check_slot(visa_centre=visa_centre, category=category, sub_category=sub_category)
+  File "/Users/haywood/Documents/Develop/python/vfs-france-appointment-bot/vfs_appointment_bot/_VfsClient.py", line 164, in check_slot
+    self._validate_login()
+  File "/Users/haywood/Documents/Develop/python/vfs-france-appointment-bot/vfs_appointment_bot/_VfsClient.py", line 91, in _validate_login
+    raise Exception("Unable to login. VFS website is not responding")
+Exception: Unable to login. VFS website is not responding
+Stack (most recent call last):
+  File "/Users/haywood/Documents/Develop/python/vfs-france-appointment-bot/vfs_appointment_bot/vfs_appointment_bot.py", line 50, in <module>
+    logging.debug(e, exc_info=True, stack_info=True)
